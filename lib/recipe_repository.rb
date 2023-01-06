@@ -33,7 +33,7 @@ class RecipeRepository
         recipe.name = record['name']
         recipe.cooking_time = record['cooking_time']
         recipe.rating = record['rating']
-
+0
         return recipe
     end
 end
